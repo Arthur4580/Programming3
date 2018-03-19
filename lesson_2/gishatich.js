@@ -1,4 +1,3 @@
-
 class Gishatich {
     constructor(x, y) {
         this.x = x;

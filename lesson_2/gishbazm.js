@@ -1,4 +1,3 @@
-
 class XotakerBazmacnox {
     constructor(x, y) {
         this.x = x;
@@ -77,4 +76,3 @@ class XotakerBazmacnox {
         }
     }
 }
-

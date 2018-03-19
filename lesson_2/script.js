@@ -34,30 +34,30 @@ function setup() {
     createCanvas(matrix[0].length * side + 1, matrix.length * side + 1);
     background('#acacac');
 
-    var xot = new Grass(1, 2,1);
+    var xot = new Grass(1, 2);
     var datarkvandakner = xot.yntrelVandak(0);
 
     for (var y = 0; y < matrix.length; y++) {
         for (var x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 1) {
-                var gr = new Grass(x, y,1);
+                var gr = new Grass(x, y);
                 grassArr.push(gr);
                 
             }
             else if (matrix[y][x] == 2) {
-                var xk = new Xotaker(x, y,2);
+                var xk = new Xotaker(x, y);
                 xotakerner.push(xk);
             }
             else if (matrix[y][x] == 3) {
-                var mx = new Gishatich(x, y,3);
+                var mx = new Gishatich(x, y);
                 mecxotaker1.push(mx);
             }
             else if (matrix[y][x] == 4) {
-                var pe = new XotBazmacnox(x, y,4);
+                var pe = new XotBazmacnox(x, y);
                 xotbazm.push(pe);
             }
             else if (matrix[y][x] == 5) {
-                var xb = new XotakerBazmacnox(x, y,5);
+                var xb = new XotakerBazmacnox(x, y);
                 xotakerbazm.push(xb);
             }
         }

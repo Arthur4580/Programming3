@@ -1,8 +1,8 @@
 class Xotaker extends KendaniEak {
-    constructor(x, y, index){
-        super(x, y, index);
+    constructor(x, y){
+        super(x, y);
         this.tariq = 0;
-                this.energy = 5;
+        this.energy = 5;
         this.energy2 = 0;
     }
    stanalNorKordinatner() {
@@ -77,7 +77,7 @@ sharjvel(){
               if(norvandak){
                 var x=norvandak[0];
                 var y=norvandak[1];
-                var norXotaker = new Xotaker(x,y,2);
+                var norXotaker = new Xotaker(x,y);
                 xotakerner.push(norXotaker);
                 matrix[y][x]=2;
               }
